@@ -89,7 +89,7 @@ void print(){
         for(int j=0;j<9;j++){
             cout << mapp[i][j] << " ";
         }
-        cout <<"\n";
+        cout << "\n";
     }
     cout << "\n";
 }
