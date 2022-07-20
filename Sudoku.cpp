@@ -86,7 +86,9 @@ bool is_group_have(int k,int row,int col){
 
 void print(){
     for(int i=0;i<9;i++){
+        if(i==3 || i==6) cout << "------+-------+------\n";
         for(int j=0;j<9;j++){
+            if(j==3 || j==6) cout <<"| ";
             cout << mapp[i][j] << " ";
         }
         cout << "\n";
